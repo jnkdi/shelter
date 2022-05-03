@@ -150,3 +150,43 @@ a {
     background: #FDDCC4;
     cursor: pointer;
 }
+
+.about {
+    background-color: #fff;
+    margin-top: 80px;
+}
+
+.about-container {
+    height: 588px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-content {
+    max-width: 430px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 120px;
+    padding-top: 14px;
+}
+
+.about-title {
+    margin: 0;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about-text {
+    font-family: 'Arial';
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
