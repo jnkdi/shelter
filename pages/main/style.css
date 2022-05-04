@@ -444,3 +444,61 @@ a {
     line-height: 18px;
     color: #B2B2B2;
 }
+
+.footer {
+    width: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%),
+    #211F20;
+}
+
+.footer-container {
+    position: relative;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    gap: 136px;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 302px;
+    height: 234px;
+}
+
+.footer-title {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.footer-text-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-right: 20px;
+}
+
+.footer-text {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+}
+
+.footer-dog {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+}
